@@ -1,0 +1,37 @@
+{
+  "name": "bumppkg",
+  "version": "0.1.0",
+  "description": "Bump a package version like `npm version`",
+  "type": "module",
+  "bin": "./cli.js",
+  "files": [
+    "cli.js"
+  ],
+  "scripts": {
+    "lint": "xo",
+    "lint:fix": "xo --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuseisui/bumppkg.git"
+  },
+  "keywords": [
+    "npm",
+    "version",
+    "npm-version"
+  ],
+  "author": "Yusei Yamamoto <yuseiyamamoto.dev@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuseisui/bumppkg/issues"
+  },
+  "homepage": "https://github.com/yuseisui/bumppkg#readme",
+  "packageManager": "npm@8.19.2",
+  "devDependencies": {
+    "xo": "^0.52.3"
+  },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "libnpmversion": "^3.0.7"
+  }
+}
