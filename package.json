@@ -1,6 +1,6 @@
 {
   "name": "bumppkg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bump a package version like `npm version`",
   "type": "module",
   "bin": "./cli.js",
