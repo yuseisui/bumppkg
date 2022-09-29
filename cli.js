@@ -39,8 +39,9 @@ program
 		'Path to the shell, which should execute the lifecycle scripts. Defaults to `/bin/sh` on unix, or `cmd.exe` on windows.',
 	)
 	.option(
-		'--message <message>',
-		'The message for the git commit and annotated git tag that are created.',
+		'-m, --message <message>',
+		'The message for the git commit and annotated git tag that are created. Replace %s with the version.',
+		'%s',
 	)
 	.option(
 		'--silent',
