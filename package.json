@@ -28,7 +28,7 @@
   "homepage": "https://github.com/yuseisui/bumppkg#readme",
   "packageManager": "npm@8.19.2",
   "devDependencies": {
-    "xo": "^0.52.3"
+    "xo": "^0.52.4"
   },
   "dependencies": {
     "commander": "^9.4.0",
