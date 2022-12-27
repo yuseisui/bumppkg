@@ -32,6 +32,6 @@
   },
   "dependencies": {
     "commander": "^9.4.1",
-    "libnpmversion": "^3.0.7"
+    "libnpmversion": "^4.0.1"
   }
 }
